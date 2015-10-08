@@ -1,2 +1,4 @@
 *.class
-swimming/target/*
+target
+bower_components
+libraries
