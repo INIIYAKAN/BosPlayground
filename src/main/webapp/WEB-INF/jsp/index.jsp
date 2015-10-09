@@ -8,10 +8,7 @@
     <body>
         <h1>It is time to swim.</h1>
 
-        <script src="/swimming/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
         <script src="/swimming/bower_components/angular/angular.min.js"></script>
-        <script src="/swimming/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
-
         <script src="/swimming/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
     </body>
 </html>

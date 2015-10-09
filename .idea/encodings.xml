@@ -4,5 +4,6 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/.gitignore" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/src/main/resources/public/bower.json" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/public/favicon.ico" charset="windows-1252" />
   </component>
 </project>
