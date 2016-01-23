@@ -1,0 +1,7 @@
+<ul class="nav nav-tabs">
+    <li ui-sref-active="active" ui-sref="swimming"><a href="#">Swimming</a></li>
+    <li ui-sref-active="active" ui-sref="motivation"><a href="#">Motivation</a></li>
+</ul>
+
+<div ui-view="swimming" ng-show="'swimming' | includedByState"></div>
+<div ui-view="motivation" ng-show="'motivation' | includedByState"></div>

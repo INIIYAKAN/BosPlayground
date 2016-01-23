@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="/swimming/bower_components/font-awesome/css/font-awesome.min.css">
         <link rel="stylesheet" href="/swimming/bower_components/bootstrap/dist/css/bootstrap.min.css">
     </head>
-    <body ng-app="budgetApp">
+    <body ng-app="swimmingApp">
         <nav class="navbar navbar-default">
             <div class="container-fluid">
                 <div class="navbar-header">
@@ -17,8 +17,8 @@
             </div>
         </nav>
 
-        <div>
-            <div class="content" ui-view></div>
+        <div class="container-fluid">
+            <div ui-view></div>
         </div>
 
         <hr>
@@ -34,9 +34,15 @@
         <!-- Third Party JavaScript -->
         <script src="/swimming/bower_components/angular/angular.min.js"></script>
         <script src="/swimming/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+        <script src="/swimming/bower_components/ui-router-extras/release/ct-ui-router-extras.min.js"></script>
 
         <!-- Application JavaScript -->
+        <script src="/swimming/app/home/homeCtrl.js"></script>
         <script src="/swimming/app/routes.js"></script>
         <script src="/swimming/app/app.js"></script>
+
+        <!-- Swimming Page -->
+        <script src="/swimming/app/swimming/swimmingCtrl.js"></script>
+        <script src="/swimming/app/swimming/swim.js"></script>
     </body>
 </html>
